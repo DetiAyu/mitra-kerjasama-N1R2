@@ -56,16 +56,16 @@ h2 {
   border-radius: 5px;
 }
 
-/* Container daftar karyawan */
-#karyawan-list {
+/* Container daftar mitra */
+#mitra-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
 }
 
-/* Item karyawan */
-.karyawan-item {
+/* Item mitra */
+.mitra-item {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -76,22 +76,22 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.karyawan-item img {
+.mitra-item img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 5%;
   object-fit: cover;
   margin-bottom: 10px;
 }
 
-.karyawan-item p {
+.mitra-item p {
   font-size: 14px;
   color: #555;
   margin: 5px 0;
 }
 
 /* Tombol lihat detail */
-.karyawan-item button {
+.mitra-item button {
   padding: 8px 12px;
   background-color: #106666;
   color: white;
@@ -100,13 +100,13 @@ h2 {
   cursor: pointer;
 }
 
-.karyawan-item button:hover {
+.mitra-item button:hover {
   background-color: #f9c74f;
 }
 
-/* Halaman detail karyawan */
-#karyawan-detail {
-  max-width: 600px;
+/* Halaman detail mitra */
+#mitra-detail {
+  max-width: 900px;
   margin: 20px auto;
   padding: 20px;
   background-color: white;
@@ -114,16 +114,16 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#karyawan-detail img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+#mitra-detail img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
   object-fit: cover;
   display: block;
   margin: 0 auto 20px auto;
 }
 
-#karyawan-detail p {
+#mitra-detail p {
   font-size: 16px;
   color: #333;
   text-align: center;
@@ -131,7 +131,7 @@ h2 {
 }
 
 /* Tombol kembali */
-#karyawan-detail button {
+#mitra-detail button {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
@@ -142,7 +142,7 @@ h2 {
   cursor: pointer;
 }
 
-#karyawan-detail button:hover {
+#mitra-detail button:hover {
   background-color: #f9c74f;
 }
 
@@ -152,11 +152,11 @@ h2 {
     width: 80%;
   }
 
-  .karyawan-item {
+  .mitra-item {
     width: 100%;
   }
 
-  #karyawan-detail {
+  #mitra-detail {
     width: 90%;
   }
 

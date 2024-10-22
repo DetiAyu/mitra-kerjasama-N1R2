@@ -1,43 +1,43 @@
-// Fungsi untuk render list karyawan
-function renderKaryawanList(karyawanArray) {
-  const karyawanListDiv = document.getElementById("karyawan-list");
-  karyawanListDiv.innerHTML = ""; // Kosongkan dulu isinya sebelum render ulang
+// Fungsi untuk render list mitra
+function renderMitraList(mitraArray) {
+  const mitraListDiv = document.getElementById("mitra-list");
+  mitraListDiv.innerHTML = ""; // Kosongkan dulu isinya sebelum render ulang
 
-  if (karyawanArray.length === 0) {
-    karyawanListDiv.innerHTML = "<p>Tidak ada karyawan yang ditemukan!</p>";
+  if (mitraArray.length === 0) {
+    mitraListDiv.innerHTML = "<p>Tidak ada mitra yang ditemukan!</p>";
     return;
   }
 
-  karyawanArray.forEach((karyawan) => {
-    const karyawanDiv = document.createElement("div");
-    karyawanDiv.classList.add("karyawan-item");
+  mitraArray.forEach((mitra) => {
+    const mitraDiv = document.createElement("div");
+    mitraDiv.classList.add("mitra-item");
 
-    karyawanDiv.innerHTML = `
-          <img src="${karyawan.foto}" alt="Foto ${karyawan.nama}">
-          <p>ID Karyawan: ${karyawan.id_karyawan}</p>
-          <p>Nama: ${karyawan.nama}</p>
-          <button onclick="lihatDetail(${karyawan.id})">Lihat Detail</button>
+    mitraDiv.innerHTML = `
+          <img src="img/${mitra.picture}" alt="Foto ${mitra.nama}">
+          <p>ID mitra: ${mitra.id_mitra}</p>
+          <p>Nama: ${mitra.nama}</p>
+          <button onclick="lihatDetail(${mitra.id})">Lihat Detail</button>
       `;
 
-    karyawanListDiv.appendChild(karyawanDiv);
+    mitraListDiv.appendChild(mitraDiv);
   });
 }
 
-// Render awal semua karyawan
-renderKaryawanList(karyawanList);
+// Render awal semua mitra
+renderMitraList(mitraList);
 
-// Fungsi lihat detail karyawan
+// Fungsi lihat detail mitra
 function lihatDetail(id) {
   window.location.href = `detail.html?id=${id}`;
 }
 
-// Fungsi pencarian karyawan tanpa menggunakan fetch
-function searchKaryawan() {
+// Fungsi pencarian mitra tanpa menggunakan fetch
+function searchMitra() {
   const searchInput = document.getElementById("search-input").value.toLowerCase();
 
-  // Filter karyawan berdasarkan nama, id_karyawan, atau bagian
-  const filteredKaryawan = karyawanList.filter((karyawan) => karyawan.nama.toLowerCase().includes(searchInput) || karyawan.id_karyawan.toString().toLowerCase().includes(searchInput) || karyawan.bagian.toLowerCase().includes(searchInput));
+  // Filter mitra berdasarkan nama, id_mitra, atau lokasi
+  const filteredMitra = mitraList.filter((mitra) => mitra.nama.toLowerCase().includes(searchInput) || mitra.id_mitra.toString().toLowerCase().includes(searchInput) || mitra.lokasi.toLowerCase().includes(searchInput));
 
-  // Render ulang daftar karyawan yang sesuai
-  renderKaryawanList(filteredKaryawan);
+  // Render ulang daftar mitra yang sesuai
+  renderMitraList(filteredMitra);
 }
