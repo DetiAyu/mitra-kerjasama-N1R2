@@ -1,0 +1,38 @@
+const karyawanList = [
+  {
+    id: 1,
+    id_karyawan: 10,
+    foto: "img/dearina.jpg",
+    nama: "dearina",
+    bagian: "sdm",
+    tanggal_lahir: "2003-06-22",
+    iuran: 1511915295,
+  },
+  {
+    id: 2,
+    id_karyawan: 12,
+    foto: "img/deti.jpg",
+    nama: "deti",
+    bagian: "account",
+    tanggal_lahir: "2020-04-29",
+    iuran: 1255158293,
+  },
+  {
+    id: 3,
+    id_karyawan: 25,
+    foto: "img/desi.jpg",
+    nama: "desi",
+    bagian: "opset",
+    tanggal_lahir: "2003-06-04",
+    iuran: 1985387759,
+  },
+  {
+    id: 4,
+    id_karyawan: 31,
+    foto: "img/dewi.jpg",
+    nama: "dewi",
+    bagian: "tanaman",
+    tanggal_lahir: "2004-08-14",
+    iuran: 39199883,
+  },
+];
