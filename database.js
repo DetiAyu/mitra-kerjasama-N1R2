@@ -2,6 +2,7 @@ const mitraList = [
   {
     id: 1,
     id_mitra: 3,
+    status: "Berjalan",
     picture: "argrobumi.jpg",
     nama: "Argro Bumi",
     lokasi: "Ciater Afd. Tambaksari",
@@ -14,6 +15,7 @@ const mitraList = [
   {
     id: 2,
     id_mitra: 16,
+    status: "Berjalan",
     picture: "ssb.jpg",
     nama: "Sumber Sejahtera Berdikari",
     lokasi: "Ciater Afd. Tambaksari",
@@ -26,6 +28,7 @@ const mitraList = [
   {
     id: 3,
     id_mitra: 23,
+    status: "Berjalan",
     picture: "ccm.jpg",
     nama: "Cipta Cerdas Mandiri",
     lokasi: "Ciater Afd. Ciater IV",
@@ -38,6 +41,7 @@ const mitraList = [
   {
     id: 4,
     id_mitra: 25,
+    status: "Berjalan",
     picture: "asstro.jpg",
     nama: "Asstro Puteri Berri - ADD",
     lokasi: "Ciater Afd. Ciater I",
@@ -50,6 +54,7 @@ const mitraList = [
   {
     id: 5,
     id_mitra: 32,
+    status: "Berjalan",
     picture: "candisukuh.jpg",
     nama: "Candi Sukuh Permai",
     lokasi: "Ciater Afd. Ciater III dan IV",
@@ -62,6 +67,7 @@ const mitraList = [
   {
     id: 6,
     id_mitra: 35,
+    status: "Berjalan",
     picture: "eigerTer.jpg",
     nama: "Eigerindo Multi Produk Industri-TER",
     lokasi: "Ciater Afd. Sukawana",
@@ -74,6 +80,7 @@ const mitraList = [
   {
     id: 7,
     id_mitra: 37,
+    status: "Berjalan",
     picture: "gsh63.jpg",
     nama: "Gunung Sarihijau Enam Tiga-BUNA",
     lokasi: "Ciater Afd. Sukawana",
@@ -86,6 +93,7 @@ const mitraList = [
   {
     id: 8,
     id_mitra: 44,
+    status: "Berjalan",
     picture: "paradotama.jpg",
     nama: "Paradotama Cipta Sarana",
     lokasi: "Ciater Afd. Ciater IV",
@@ -98,6 +106,7 @@ const mitraList = [
   {
     id: 9,
     id_mitra: 45,
+    status: "Berjalan",
     picture: "perisai.jpg",
     nama: "Perisai Wisata Utama",
     lokasi: "Ciater Afd. Ciater I",
@@ -110,6 +119,7 @@ const mitraList = [
   {
     id: 10,
     id_mitra: 71,
+    status: "Berjalan",
     picture: "kli.jpg",
     nama: "Komunitas Lansia Indonesia",
     lokasi: "Ciater",
@@ -122,6 +132,7 @@ const mitraList = [
   {
     id: 11,
     id_mitra: 216,
+    status: "Berjalan",
     picture: "izza.jpg",
     nama: "Izza Agro Mandiri",
     lokasi: "Ciater",
@@ -134,6 +145,7 @@ const mitraList = [
   {
     id: 12,
     id_mitra: 246,
+    status: "Berjalan",
     picture: "vivo.jpg",
     nama: "Vivo Coco Indonesia",
     lokasi: "Cikumpay",
@@ -146,6 +158,7 @@ const mitraList = [
   {
     id: 13,
     id_mitra: 256,
+    status: "Berjalan",
     picture: "bmn.jpg",
     nama: "Berkah Monara Nusantara",
     lokasi: "Ciater",

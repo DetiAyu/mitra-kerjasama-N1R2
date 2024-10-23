@@ -14,8 +14,8 @@ function renderMitraList(mitraArray) {
 
     mitraDiv.innerHTML = `
           <img src="img/${mitra.picture}" alt="Foto ${mitra.nama}">
-          <p>ID mitra: ${mitra.id_mitra}</p>
-          <p>Nama: ${mitra.nama}</p>
+          <p style="font-weight: bold;">${mitra.id_mitra}</p>
+          <p>${mitra.nama}</p>
           <button onclick="lihatDetail(${mitra.id})">Lihat Detail</button>
       `;
 
