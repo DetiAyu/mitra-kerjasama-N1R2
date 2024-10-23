@@ -67,7 +67,7 @@ const mitraList = [
   {
     id: 6,
     id_mitra: 35,
-    status: "Berjalan",
+    status: "Addendum",
     picture: "eigerTer.jpg",
     nama: "Eigerindo Multi Produk Industri-TER",
     lokasi: "Ciater Afd. Sukawana",
@@ -119,7 +119,7 @@ const mitraList = [
   {
     id: 10,
     id_mitra: 71,
-    status: "Berjalan",
+    status: "Addendum",
     picture: "kli.jpg",
     nama: "Komunitas Lansia Indonesia",
     lokasi: "Ciater",
@@ -131,6 +131,19 @@ const mitraList = [
   },
   {
     id: 11,
+    id_mitra: 73,
+    status: "Berakhir",
+    picture: "nanibar.jpg",
+    nama: "Nanibar Kapital Nusantara",
+    lokasi: "Ciater",
+    bidang: "Pertanian",
+    luas: 136100,
+    awal: "2022-08-09",
+    akhir: "2027-08-08",
+    piutang: "988031309",
+  },
+  {
+    id: 12,
     id_mitra: 216,
     status: "Berjalan",
     picture: "izza.jpg",
@@ -143,7 +156,7 @@ const mitraList = [
     piutang: "1527000289",
   },
   {
-    id: 12,
+    id: 13,
     id_mitra: 246,
     status: "Berjalan",
     picture: "vivo.jpg",
@@ -156,7 +169,7 @@ const mitraList = [
     piutang: "1009040158",
   },
   {
-    id: 13,
+    id: 14,
     id_mitra: 256,
     status: "Berjalan",
     picture: "bmn.jpg",

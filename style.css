@@ -3,12 +3,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom right, #fdfdfb 0%, #faf8f4 30%, #fbf2dd 50%, #fbf2dd 70%, #faf8f4 90%);
+  background: linear-gradient(to bottom right, #1c7a7d00 0%, #1c7a7d35 30%, #1c7a7d7b 50%, #1c7a7d7b 70%, #1c7a7d00 90%);
 }
 
 /* Navbar */
 .navbar {
-  background-color: #106666;
+  background-color: #1c797de0;
   padding: 20px 30px;
   display: flex;
   justify-content: space-between;
@@ -46,14 +46,14 @@ body {
 
 .navbar-brand a:hover,
 .navbar-links a:hover {
-  color: #f4e1b6;
+  color: #bbc5c3;
   text-decoration: none;
 }
 
 /* Header utama */
 h2 {
   text-align: center;
-  color: #106666;
+  color: #1c797de0;
   margin-top: 20px;
 }
 
@@ -108,7 +108,7 @@ input::placeholder {
 /* Tombol lihat detail */
 .mitra-item button {
   padding: 8px 12px;
-  background-color: #106666;
+  background-color: #1c797de0;
   color: white;
   border: none;
   border-radius: 5px;
@@ -116,7 +116,7 @@ input::placeholder {
 }
 
 .mitra-item button:hover {
-  background-color: #f4e1b6;
+  background-color: #bbc5c3;
 }
 
 /* Halaman detail mitra */
@@ -124,7 +124,7 @@ input::placeholder {
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(241, 246, 247);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -152,7 +152,7 @@ input::placeholder {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: #106666;
+  background-color: #1c797de0;
   color: white;
   border: none;
   border-radius: 5px;
@@ -160,14 +160,14 @@ input::placeholder {
 }
 
 #mitra-detail button:hover {
-  background-color: #f4e1b6;
+  background-color: #bbc5c3;
 }
 
 .iframe-container {
   position: relative;
   max-width: 850px;
   margin: 20px auto;
-  border: 3px solid #47a192;
+  border: 3px solid #1c797de0;
   border-radius: 10px;
   overflow: hidden; /* Menghindari konten overflow */
 }
