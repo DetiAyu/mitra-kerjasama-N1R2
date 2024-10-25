@@ -2,6 +2,10 @@
 const urlParams = new URLSearchParams(window.location.search);
 const idTabel = urlParams.get("id");
 
+if (idTabel) {
+  window.history.replaceState({}, "", `/mitra-kerjasama/${id}`);
+}
+
 // Cari data mitra berdasarkan id
 const mitra = mitraList.find((mitra) => mitra.id == idTabel);
 
@@ -26,10 +30,8 @@ if (mitra) {
         <center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3OGuIO3SI6g3jT_AOTeg7WCRTalLNOInMHZ_uR6Eegjt68H9LBJ39PAZ16AeigdB9iglA7a1VrleI/pubhtml?gid=${
           mitra.piutang
         }&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe></center>
-        </div>;
-
-       
-        
+        </div>
+      
         <button onclick="kembali()">Kembali</button>
     `;
 } else {
