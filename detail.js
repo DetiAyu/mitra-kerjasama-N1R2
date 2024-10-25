@@ -2,8 +2,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 const idTabel = urlParams.get("id");
 
+// Atur ulang URL tanpa mengubah path
 if (idTabel) {
-  window.history.replaceState({}, "", `/mitra-kerjasama/${id}`);
+  window.history.replaceState({}, "", `/${idTabel}`);
 }
 
 // Cari data mitra berdasarkan id

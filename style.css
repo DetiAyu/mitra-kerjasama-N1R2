@@ -22,7 +22,8 @@ body {
   font-size: 22px;
   font-weight: bold;
   color: inherit; /* Warna teks sesuai dengan elemen induknya */
-  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  text-decoration: none;
+  margin-left: 40px;
 }
 
 .navbar-links a {
@@ -30,6 +31,7 @@ body {
   font-weight: bold;
   color: inherit;
   text-decoration: none;
+  margin-right: 40px;
 }
 
 .navbar-brand a:visited,
